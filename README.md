@@ -14,3 +14,9 @@ For Run
 ```
 bun server.js
 ```
+
+For Compile server.go
+
+```
+go build --buildmode c-shared -o ./server.dylib server.go
+```
