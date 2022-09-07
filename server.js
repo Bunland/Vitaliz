@@ -5,6 +5,7 @@ const server = new Server();
 // Static Dir
 server.static("static")
 // Routes
+server.get("/", "./templates/index.html");
 server.get("/home", "./templates/home.html");
 server.get("/contact", "./templates/contact.html");
 // Server Listen
