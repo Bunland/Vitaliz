@@ -1,0 +1,25 @@
+{
+  "name": "vitaliz",
+  "version": "1.0.0",
+  "description": "Static file Server.",
+  "main": "index.js",
+  "dependencies": {
+    "bun-types": "^0.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "bun run server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bunland/Vitaliz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bunland/Vitaliz/issues"
+  },
+  "homepage": "https://github.com/Bunland/Vitaliz#readme"
+}

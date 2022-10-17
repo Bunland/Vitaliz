@@ -6,15 +6,15 @@ class Server {
   constructor() {
   }
 
-  get(route, render) {
+  render(route: string , render: string) {
     return symbols.CreateRoute(ptr(encode(route)), ptr(encode(render)));
   }
-
-  listen(port) {
+  
+  listen(port: string ) {
     return symbols.CreateServer(ptr(encode(port)));
   }
 
-  static(staticDir) {
+  static(staticDir: string) {
     return symbols.CreateStaticDir(ptr(encode(staticDir)));
   }
 }

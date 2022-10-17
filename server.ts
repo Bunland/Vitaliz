@@ -1,12 +1,10 @@
 import { Server } from "./src/config";
-
 // Instance a new server
 const server = new Server();
 // Static Dir
 server.static("static")
 // Routes
-server.get("/", "./templates/index.html");
-server.get("/home", "./templates/home.html");
-server.get("/contact", "./templates/contact.html");
+server.render("/", "./templates/index.html");
+server.render("/home", "./templates/home.html")
 // Server Listen
 server.listen("4000")
