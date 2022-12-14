@@ -6,5 +6,6 @@ server.static("static")
 // Routes
 server.render("/", "./templates/index.html");
 server.render("/home", "./templates/home.html")
+server.render("/contact", "./templates/contact.html")
 // Server Listen
 server.listen("4000")
