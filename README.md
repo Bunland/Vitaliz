@@ -1,4 +1,4 @@
-# Vitaliz
+# Vitaliz.
 A small server made with Golang, which works with bun.js
 
 For now we can create routes and server static files in each of them.
